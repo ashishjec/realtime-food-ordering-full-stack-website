@@ -1,0 +1,1094 @@
+[
+  {
+    "_id": {
+      "$oid": "5eee651f739f8c674fd736ee"
+    },
+    "category": "Pizza",
+    "name": "Margherita",
+    "image": "pizza0.jpeg",
+    "price": "90",
+    "size": "small"
+  },
+  {
+    "_id": {
+      "$oid": "5eee67b8a27a66807cf2beb0"
+    },
+    "category": "Roll",
+    "name": "Veggie Roll",
+    "image": "roll2.jpeg",
+    "price": "100"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6671a27a66807cf2bea3"
+    },
+    "category": "Pizza",
+    "name": "Marinara",
+    "image": "pizza2.jpeg",
+    "price": "300",
+    "size": "medium"
+  },
+  {
+    "_id": {
+      "$oid": "5eee67a5a27a66807cf2beaf"
+    },
+    "category": "Roll",
+    "name": "Chicken Roll",
+    "image": "roll.jpeg",
+    "price": "120"
+  },
+  {
+    "_id": {
+      "$oid": "5eee66a5a27a66807cf2bea5"
+    },
+    "category": "Pizza",
+    "name": "Americana",
+    "image": "pizza3.jpeg",
+    "price": "500",
+    "size": "large"
+  },
+  {
+    "_id": {
+      "$oid": "5eee66c4a27a66807cf2bea6"
+    },
+    "category": "Pizza",
+    "name": "Chicken Mushroom",
+    "image": "pizza4.jpeg",
+    "price": "350",
+    "size": "medium"
+  },
+  {
+    "_id": {
+      "$oid": "5eee67c9a27a66807cf2beb1"
+    },
+    "category": "Pulao",
+    "name": "Vegetable Pulao",
+    "image": "pulao.jpeg",
+    "price": "180"
+  },
+  {
+    "_id": {
+      "$oid": "5eee67dba27a66807cf2beb2"
+    },
+    "category": "Pulao",
+    "name": "Chicken Pulao",
+    "image": "pulao2.jpeg",
+    "price": "220"
+  },
+  {
+    "_id": {
+      "$oid": "5eee67eea27a66807cf2beb3"
+    },
+    "category": "Chow Mein",
+    "name": "Vegetable Chow Mein",
+    "image": "chowmein.jpeg",
+    "price": "150"
+  },
+  {
+    "_id": {
+      "$oid": "5eee67ffa27a66807cf2beb4"
+    },
+    "category": "Chow Mein",
+    "name": "Chicken Chow Mein",
+    "image": "chowmein2.jpeg",
+    "price": "200"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6810a27a66807cf2beb5"
+    },
+    "category": "Maggi",
+    "name": "Masala Maggi",
+    "image": "maggi.jpeg",
+    "price": "80"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6821a27a66807cf2beb6"
+    },
+    "category": "Roti",
+    "name": "Plain Roti",
+    "image": "roti.jpeg",
+    "price": "10"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6833a27a66807cf2beb7"
+    },
+    "category": "Sabji",
+    "name": "Palak Paneer",
+    "image": "sabji.jpeg",
+    "price": "220"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6845a27a66807cf2beb8"
+    },
+    "category": "Burger",
+    "name": "Classic Cheeseburger",
+    "image": "burger.jpeg",
+    "price": "300"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6858a27a66807cf2beb9"
+    },
+    "category": "Burger",
+    "name": "Veggie Burger",
+    "image": "burger2.jpeg",
+    "price": "250"
+  },
+  {
+    "_id": {
+      "$oid": "5eee686ba27a66807cf2beba"
+    },
+    "category": "Sandwich",
+    "name": "Grilled Chicken Sandwich",
+    "image": "sandwich.jpeg",
+    "price": "180"
+  },
+  {
+    "_id": {
+      "$oid": "5eee687ea27a66807cf2bebb"
+    },
+    "category": "Sandwich",
+    "name": "Vegetarian Club Sandwich",
+    "image": "sandwich2.jpeg",
+    "price": "150"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6890a27a66807cf2bebc"
+    },
+    "category": "Dessert",
+    "name": "Chocolate Brownie Sundae",
+    "image": "dessert.jpeg",
+    "price": "120"
+  },
+  {
+    "_id": {
+      "$oid": "5eee68a3a27a66807cf2bebd"
+    },
+    "category": "Dessert",
+    "name": "Fruit Parfait",
+    "image": "dessert2.jpeg",
+    "price": "100"
+  },
+  {
+    "_id": {
+      "$oid": "5eee68b6a27a66807cf2bebe"
+    },
+    "category": "Soup",
+    "name": "Tomato Basil Soup",
+    "image": "soup.jpeg",
+    "price": "90"
+  },
+  {
+    "_id": {
+      "$oid": "5eee68c8a27a66807cf2bebf"
+    },
+    "category": "Soup",
+    "name": "Chicken Noodle Soup",
+    "image": "soup2.jpeg",
+    "price": "110"
+  },
+  {
+    "_id": {
+      "$oid": "5eee68dba27a66807cf2bec0"
+    },
+    "category": "Biryani",
+    "name": "Chicken Biryani",
+    "image": "biryani.jpeg",
+    "price": "250"
+  },
+  {
+    "_id": {
+      "$oid": "5eee68eca27a66807cf2bec1"
+    },
+    "category": "Biryani",
+    "name": "Vegetable Biryani",
+    "image": "biryani2.jpeg",
+    "price": "200"
+  },
+  {
+    "_id": {
+      "$oid": "5eee68ffa27a66807cf2bec2"
+    },
+    "category": "Salad",
+    "name": "Caesar Salad",
+    "image": "salad.jpeg",
+    "price": "180"
+  },
+  {
+    "_id": {
+      "$oid": "5eee690ca27a66807cf2bec3"
+    },
+    "category": "Pasta",
+    "name": "Spaghetti Carbonara",
+    "image": "pasta.jpeg",
+    "price": "220"
+  },
+  {
+    "_id": {
+      "$oid": "5eee691ea27a66807cf2bec4"
+    },
+    "category": "Pasta",
+    "name": "Vegetarian Alfredo",
+    "image": "pasta2.jpeg",
+    "price": "200"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6a0fa27a66807cf2bed1"
+    },
+    "category": "Beverage",
+    "name": "Green Tea",
+    "image": "tea.jpeg",
+    "price": "80"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6a22a27a66807cf2bed2"
+    },
+    "category": "Beverage",
+    "name": "Classic Lemonade",
+    "image": "lemonade.jpeg",
+    "price": "100"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6a30a27a66807cf2bed3"
+    },
+    "category": "Pizza",
+    "name": "Pepperoni Pizza",
+    "image": "pepperoni_pizza.jpeg",
+    "price": "550",
+    "size": "large"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6a44a27a66807cf2bed4"
+    },
+    "category": "Pizza",
+    "name": "Four Cheese Pizza",
+    "image": "four_cheese_pizza.jpeg",
+    "price": "400",
+    "size": "medium"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6a55a27a66807cf2bed5"
+    },
+    "category": "Pizza",
+    "name": "Hawaiian Pizza",
+    "image": "hawaiian_pizza.jpeg",
+    "price": "450",
+    "size": "medium"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6a66a27a66807cf2bed6"
+    },
+    "category": "Roll",
+    "name": "Paneer Tikka Roll",
+    "image": "paneer_tikka_roll.jpeg",
+    "price": "150"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6a7ba27a66807cf2bed7"
+    },
+    "category": "Roll",
+    "name": "Egg Roll",
+    "image": "egg_roll.jpeg",
+    "price": "130"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6a8ea27a66807cf2bed8"
+    },
+    "category": "Pulao",
+    "name": "Paneer Pulao",
+    "image": "paneer_pulao.jpeg",
+    "price": "200"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6aa2a27a66807cf2bed9"
+    },
+    "category": "Chow Mein",
+    "name": "Egg Chow Mein",
+    "image": "egg_chow_mein.jpeg",
+    "price": "180"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6ab4a27a66807cf2beda"
+    },
+    "category": "Maggi",
+    "name": "Cheese Maggi",
+    "image": "cheese_maggi.jpeg",
+    "price": "100"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6ac7a27a66807cf2bedb"
+    },
+    "category": "Roti",
+    "name": "Butter Naan",
+    "image": "butter_naan.jpeg",
+    "price": "30"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6ad8a27a66807cf2bedc"
+    },
+    "category": "Sabji",
+    "name": "Mixed Vegetable",
+    "image": "mixed_vegetable.jpeg",
+    "price": "200"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6aeba27a66807cf2bedd"
+    },
+    "category": "Burger",
+    "name": "Chicken Burger",
+    "image": "chicken_burger.jpeg",
+    "price": "280"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6afca27a66807cf2bede"
+    },
+    "category": "Burger",
+    "name": "Paneer Burger",
+    "image": "paneer_burger.jpeg",
+    "price": "260"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6b0fa27a66807cf2bedf"
+    },
+    "category": "Sandwich",
+    "name": "Paneer Sandwich",
+    "image": "paneer_sandwich.jpeg",
+    "price": "170"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6b21a27a66807cf2bee0"
+    },
+    "category": "Dessert",
+    "name": "Rasgulla",
+    "image": "rasgulla.jpeg",
+    "price": "100"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6b32a27a66807cf2bee1"
+    },
+    "category": "Dessert",
+    "name": "Gulab Jamun",
+    "image": "gulab_jamun.jpeg",
+    "price": "90"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6b45a27a66807cf2bee2"
+    },
+    "category": "Soup",
+    "name": "Sweet Corn Soup",
+    "image": "sweet_corn_soup.jpeg",
+    "price": "100"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6b56a27a66807cf2bee3"
+    },
+    "category": "Soup",
+    "name": "Hot and Sour Soup",
+    "image": "hot_and_sour_soup.jpeg",
+    "price": "120"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6b69a27a66807cf2bee4"
+    },
+    "category": "Biryani",
+    "name": "Mutton Biryani",
+    "image": "mutton_biryani.jpeg",
+    "price": "300"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6b7ba27a66807cf2bee5"
+    },
+    "category": "Salad",
+    "name": "Greek Salad",
+    "image": "greek_salad.jpeg",
+    "price": "200"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6b8ea27a66807cf2bee6"
+    },
+    "category": "Pasta",
+    "name": "Penne Arrabiata",
+    "image": "penne_arrabiata.jpeg",
+    "price": "210"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6ba0a27a66807cf2bee7"
+    },
+    "category": "South Indian",
+    "name": "Dosa",
+    "image": "dosa.jpeg",
+    "price": "100"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6bb2a27a66807cf2bee8"
+    },
+    "category": "South Indian",
+    "name": "Idli",
+    "image": "idli.jpeg",
+    "price": "80"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6bc5a27a66807cf2bee9"
+    },
+    "category": "South Indian",
+    "name": "Vada",
+    "image": "vada.jpeg",
+    "price": "70"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6bd6a27a66807cf2beea"
+    },
+    "category": "South Indian",
+    "name": "Uttapam",
+    "image": "uttapam.jpeg",
+    "price": "90"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6be9a27a66807cf2beeb"
+    },
+    "category": "Assamese",
+    "name": "Assamese Thali",
+    "image": "assamese_thali.jpeg",
+    "price": "250"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6bfc0622c66807cf2beec"
+    },
+    "category": "Assamese",
+    "name": "Duck Curry",
+    "image": "duck_curry.jpeg",
+    "price": "300"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6c0d2622c66807cf2beed"
+    },
+    "category": "Assamese",
+    "name": "Fish Tenga",
+    "image": "fish_tenga.jpeg",
+    "price": "220"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6c1f5622c66807cf2beee"
+    },
+    "category": "Assamese",
+    "name": "Pork with Bamboo Shoot",
+    "image": "pork_with_bamboo_shoot.jpeg",
+    "price": "270"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6c315622c66807cf2beef"
+    },
+    "category": "Bihari",
+    "name": "Litti Chokha",
+    "image": "litti_chokha.jpeg",
+    "price": "150"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6c42a27a66807cf2bef0"
+    },
+    "category": "Bihari",
+    "name": "Bihari Kebab",
+    "image": "bihari_kebab.jpeg",
+    "price": "200"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6c54a27a66807cf2bef1"
+    },
+    "category": "Bihari",
+    "name": "Sattu Paratha",
+    "image": "sattu_paratha.jpeg",
+    "price": "100"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6c65a27a66807cf2bef2"
+    },
+    "category": "Bihari",
+    "name": "Dal Pitha",
+    "image": "dal_pitha.jpeg",
+    "price": "120"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6c76a27a66807cf2bef3"
+    },
+    "category": "Popular",
+    "name": "Momos",
+    "image": "momos.jpeg",
+    "price": "120",
+    "stock": "out of stock"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6c87a27a66807cf2bef4"
+    },
+    "category": "Popular",
+    "name": "Tandoori Chicken",
+    "image": "tandoori_chicken.jpeg",
+    "price": "320",
+    "outOfStock": true
+  },
+  {
+    "_id": {
+      "$oid": "5eee6c98a27a66807cf2bef5"
+    },
+    "category": "Popular",
+    "name": "Paneer Butter Masala",
+    "image": "paneer_butter_masala.jpeg",
+    "price": "240"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6ca9a27a66807cf2bef6"
+    },
+    "category": "Popular",
+    "name": "Chicken Curry",
+    "image": "chicken_curry.jpeg",
+    "price": "250"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6cbca27a66807cf2bef7"
+    },
+    "category": "Popular",
+    "name": "Butter Chicken",
+    "image": "butter_chicken.jpeg",
+    "price": "280"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6833a27a66807cf2beb7"
+    },
+    "category": "Sabji",
+    "name": "Palak Paneer",
+    "image": "palaksabji.jpeg",
+    "price": "220"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6845a27a66807cf2beb8"
+    },
+    "category": "Burger",
+    "name": "Classic Cheeseburger",
+    "image": "burger.jpeg",
+    "price": "300"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6858a27a66807cf2beb9"
+    },
+    "category": "Burger",
+    "name": "Veggie Burger",
+    "image": "burger2.jpeg",
+    "price": "250"
+  },
+  {
+    "_id": {
+      "$oid": "5eee686ba27a66807cf2beba"
+    },
+    "category": "Sandwich",
+    "name": "Grilled Chicken Sandwich",
+    "image": "sandwich.jpeg",
+    "price": "180"
+  },
+  {
+    "_id": {
+      "$oid": "5eee687ea27a66807cf2bebb"
+    },
+    "category": "Sandwich",
+    "name": "Vegetarian Club Sandwich",
+    "image": "sandwich2.jpeg",
+    "price": "150"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6890a27a66807cf2bebc"
+    },
+    "category": "Dessert",
+    "name": "Chocolate Brownie Sundae",
+    "image": "dessert.jpeg",
+    "price": "120"
+  },
+  {
+    "_id": {
+      "$oid": "5eee68a3a27a66807cf2bebd"
+    },
+    "category": "Dessert",
+    "name": "Fruit Parfait",
+    "image": "dessert2.jpeg",
+    "price": "100"
+  },
+  {
+    "_id": {
+      "$oid": "5eee68b6a27a66807cf2bebe"
+    },
+    "category": "Soup",
+    "name": "Tomato Basil Soup",
+    "image": "soup.jpeg",
+    "price": "90"
+  },
+  {
+    "_id": {
+      "$oid": "5eee68c8a27a66807cf2bebf"
+    },
+    "category": "Soup",
+    "name": "Chicken Noodle Soup",
+    "image": "soup2.jpeg",
+    "price": "110"
+  },
+  {
+    "_id": {
+      "$oid": "5eee68dba27a66807cf2bec0"
+    },
+    "category": "Biryani",
+    "name": "Chicken Biryani",
+    "image": "biryani.jpeg",
+    "price": "250"
+  },
+  {
+    "_id": {
+      "$oid": "5eee68eca27a66807cf2bec1"
+    },
+    "category": "Biryani",
+    "name": "Vegetable Biryani",
+    "image": "biryani2.jpeg",
+    "price": "200"
+  },
+  {
+    "_id": {
+      "$oid": "5eee68ffa27a66807cf2bec2"
+    },
+    "category": "Salad",
+    "name": "Caesar Salad",
+    "image": "salad.jpeg",
+    "price": "180"
+  },
+  {
+    "_id": {
+      "$oid": "5eee690ca27a66807cf2bec3"
+    },
+    "category": "Pasta",
+    "name": "Spaghetti Carbonara",
+    "image": "pasta.jpeg",
+    "price": "220"
+  },
+  {
+    "_id": {
+      "$oid": "5eee691ea27a66807cf2bec4"
+    },
+    "category": "Pasta",
+    "name": "Vegetarian Alfredo",
+    "image": "pasta2.jpeg",
+    "price": "200"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6a0fa27a66807cf2bed1"
+    },
+    "category": "Beverage",
+    "name": "Green Tea",
+    "image": "tea.jpeg",
+    "price": "80"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6a22a27a66807cf2bed2"
+    },
+    "category": "Beverage",
+    "name": "Classic Lemonade",
+    "image": "lemonade.jpeg",
+    "price": "100"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6a30a27a66807cf2bed3"
+    },
+    "category": "Pizza",
+    "name": "Pepperoni Pizza",
+    "image": "pepperoni_pizza.jpeg",
+    "price": "550",
+    "size": "large"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6a44a27a66807cf2bed4"
+    },
+    "category": "Pizza",
+    "name": "Four Cheese Pizza",
+    "image": "four_cheese_pizza.jpeg",
+    "price": "400",
+    "size": "medium"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6a55a27a66807cf2bed5"
+    },
+    "category": "Sushi",
+    "name": "California Roll",
+    "image": "california_roll.jpeg",
+    "price": "300"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6a65a27a66807cf2bed6"
+    },
+    "category": "Sushi",
+    "name": "Salmon Nigiri",
+    "image": "salmon_nigiri.jpeg",
+    "price": "350"
+  },
+  {
+    "_id": {
+      "$oid": "5f5f09035c1d41662f6b1b95"
+    },
+    "category": "Assamese",
+    "name": "Masor Tenga (Tangy Fish Curry)",
+    "image": "masor_tenga.jpeg",
+    "price": "250"
+  },
+  {
+    "_id": {
+      "$oid": "5f5f09325c1d41662f6b1b96"
+    },
+    "category": "Assamese",
+    "name": "Khar (Alkaline Based Dish)",
+    "image": "khar.jpeg",
+    "price": "200"
+  },
+  {
+    "_id": {
+      "$oid": "5f5f09475c1d41662f6b1b97"
+    },
+    "category": "Assamese",
+    "name": "Duck with Bamboo Shoot",
+    "image": "duck_bamboo_shoot.jpeg",
+    "price": "300"
+  },
+  {
+    "_id": {
+      "$oid": "5f5f09605c1d41662f6b1b98"
+    },
+    "category": "Assamese",
+    "name": "Aloo Pitika (Mashed Potatoes)",
+    "image": "aloo_pitika.jpeg",
+    "price": "150"
+  },
+  {
+    "_id": {
+      "$oid": "5f5f09795c1d41662f6b1b99"
+    },
+    "category": "Assamese",
+    "name": "Pitha (Rice Cake)",
+    "image": "pitha.jpeg",
+    "price": "100"
+  },
+  {
+    "_id": {
+      "$oid": "5f5f09935c1d41662f6b1b9a"
+    },
+    "category": "South Indian",
+    "name": "Dosa",
+    "image": "dosa.jpeg",
+    "price": "80"
+  },
+  {
+    "_id": {
+      "$oid": "5f5f09ad5c1d41662f6b1b9b"
+    },
+    "category": "South Indian",
+    "name": "Idli",
+    "image": "idli.jpeg",
+    "price": "50"
+  },
+  {
+    "_id": {
+      "$oid": "5f5f09c55c1d41662f6b1b9c"
+    },
+    "category": "South Indian",
+    "name": "Vada",
+    "image": "vada.jpeg",
+    "price": "60"
+  },
+  {
+    "_id": {
+      "$oid": "5f5f09db5c1d41662f6b1b9d"
+    },
+    "category": "South Indian",
+    "name": "Uttapam",
+    "image": "uttapam.jpeg",
+    "price": "90"
+  },
+  {
+    "_id": {
+      "$oid": "5f5f09f55c1d41662f6b1b9e"
+    },
+    "category": "South Indian",
+    "name": "Sambar",
+    "image": "sambar.jpeg",
+    "price": "70"
+  },
+  {
+    "_id": {
+      "$oid": "5f5f0a105c1d41662f6b1b9f"
+    },
+    "category": "Bihari",
+    "name": "Litti Chokha",
+    "image": "litti_chokha.jpeg",
+    "price": "120"
+  },
+  {
+    "_id": {
+      "$oid": "5f5f0a255c1d41662f6b1ba0"
+    },
+    "category": "Bihari",
+    "name": "Sattu Paratha",
+    "image": "sattu_paratha.jpeg",
+    "price": "100"
+  },
+  {
+    "_id": {
+      "$oid": "5f5f0a3e5c1d41662f6b1ba1"
+    },
+    "category": "Bihari",
+    "name": "Thekua",
+    "image": "thekua.jpeg",
+    "price": "80"
+  },
+  {
+    "_id": {
+      "$oid": "5f5f0a5a5c1d41662f6b1ba2"
+    },
+    "category": "Bihari",
+    "name": "Chana Ghugni",
+    "image": "chana_ghugni.jpeg",
+    "price": "70"
+  },
+  {
+    "_id": {
+      "$oid": "5f5f0a755c1d41662f6b1ba3"
+    },
+    "category": "Bihari",
+    "name": "Dal Pitha",
+    "image": "dal_pitha.jpeg",
+    "price": "110"
+  },
+    {
+      "_id": {
+        "$oid": "5f5f0a5a5c1d41662f6b1ba1"
+      },
+      "category": "Assamese",
+      "name": "Assam Laksa",
+      "image": "assam_laksa.jpeg",
+      "price": "150"
+    },
+    {
+      "_id": {
+        "$oid": "5f5f0a5a5c1d41662f6b1ba2"
+      },
+      "category": "Assamese",
+      "name": "Masor Tenga",
+      "image": "masor_tenga.jpeg",
+      "price": "120"
+    },
+    {
+      "_id": {
+        "$oid": "5f5f0a5a5c1d41662f6b1ba3"
+      },
+      "category": "Assamese",
+      "name": "Pitika",
+      "image": "pitika.jpeg",
+      "price": "80"
+    },
+    {
+      "_id": {
+        "$oid": "5f5f0a5a5c1d41662f6b1ba4"
+      },
+      "category": "Assamese",
+      "name": "Duck Meat Curry",
+      "image": "duck_meat_curry.jpeg",
+      "price": "200"
+    },
+    {
+      "_id": {
+        "$oid": "5f5f0a5a5c1d41662f6b1ba5"
+      },
+      "category": "Assamese",
+      "name": "Khaar",
+      "image": "khaar.jpeg",
+      "price": "100"
+    },
+    {
+      "_id": {
+        "$oid": "5f5f0a5a5c1d41662f6b1ba6"
+      },
+      "category": "Assamese",
+      "name": "Aloo Pitika",
+      "image": "aloo_pitika.jpeg",
+      "price": "70"
+    },
+    {
+      "_id": {
+        "$oid": "5f5f0a5a5c1d41662f6b1ba7"
+      },
+      "category": "Assamese",
+      "name": "Bora Saul",
+      "image": "bora_saul.jpeg",
+      "price": "90"
+    },
+    {
+      "_id": {
+        "$oid": "5f5f0a5a5c1d41662f6b1ba8"
+      },
+      "category": "Assamese",
+      "name": "Paro Mangxo",
+      "image": "paro_mangxo.jpeg",
+      "price": "180"
+    },
+    {
+      "_id": {
+        "$oid": "5f5f0a5a5c1d41662f6b1ba9"
+      },
+      "category": "Assamese",
+      "name": "Narikolor Laru",
+      "image": "narikolor_laru.jpeg",
+      "price": "50"
+    },
+    {
+      "_id": {
+        "$oid": "5f5f0a5a5c1d41662f6b1baa"
+      },
+      "category": "Assamese",
+      "name": "Silkworm Fry",
+      "image": "silkworm_fry.jpeg",
+      "price": "150"
+    },
+    {
+      "_id": {
+        "$oid": "5f5f0a5a5c1d41662f6b1bab"
+      },
+      "category": "Assamese",
+      "name": "Pura Dia Maas",
+      "image": "pura_dia_maas.jpeg",
+      "price": "110"
+    },
+    {
+      "_id": {
+        "$oid": "5f5f0a5a5c1d41662f6b1bac"
+      },
+      "category": "Assamese",
+      "name": "Til Pitha",
+      "image": "til_pitha.jpeg",
+      "price": "60"
+    },
+    {
+      "_id": {
+        "$oid": "5f5f0a5a5c1d41662f6b1bad"
+      },
+      "category": "Assamese",
+      "name": "Komolar Kheer",
+      "image": "komolar_kheer.jpeg",
+      "price": "80"
+    },
+    {
+      "_id": {
+        "$oid": "5f5f0a5a5c1d41662f6b1bae"
+      },
+      "category": "Assamese",
+      "name": "Chunga Pitha",
+      "image": "chunga_pitha.jpeg",
+      "price": "70"
+    },
+    {
+      "_id": {
+        "$oid": "5f5f0a5a5c1d41662f6b1baf"
+      },
+      "category": "Assamese",
+      "name": "Doi-Chira",
+      "image": "doi_chira.jpeg",
+      "price": "90"
+    },
+    {
+      "_id": {
+        "$oid": "5f5f0a5a5c1d41662f6b1bb0"
+      },
+      "category": "Assamese",
+      "name": "Tekeli Pitha",
+      "image": "tekeli_pitha.jpeg",
+      "price": "60"
+    },
+    {
+      "_id": {
+        "$oid": "5f5f0a5a5c1d41662f6b1bb1"
+      },
+      "category": "Assamese",
+      "name": "Koldil Bhaji",
+      "image": "koldil_bhaji.jpeg",
+      "price": "50"
+    },
+    {
+      "_id": {
+        "$oid": "5f5f0a5a5c1d41662f6b1bb2"
+      },
+      "category": "Assamese",
+      "name": "Baahor Gajor Sabji",
+      "image": "baahor_gajor_sabji.jpeg",
+      "price": "70"
+    },
+    {
+      "_id": {
+        "$oid": "5f5f0a5a5c1d41662f6b1bb3"
+      },
+      "category": "Assamese",
+      "name": "Xoru Maasor Jul",
+      "image": "xoru_maasor_jul.jpeg",
+      "price": "100"
+    },
+    {
+      "_id": {
+        "$oid": "5f5f0a5a5c1d41662f6b1bb4"
+      },
+      "category": "Assamese",
+      "name": "Leta Bhaji",
+      "image": "leta_bhaji.jpeg",
+      "price": "80"
+    }
+  ]
+

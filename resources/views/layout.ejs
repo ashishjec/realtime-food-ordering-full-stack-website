@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realtime Food Ordering app</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="/css/app.css">
+</head>
+
+<body>
+    <nav class="container mx-auto flex items-center justify-between py-4">
+        <div>
+            <a href="/"><img src="/img/logo.png" height="80" width="80" alt="logo"></a>
+            <b>HungryFlix</b>
+        </div>
+        <div>
+            <ul class="flex items-center">
+                <li class="ml-6 text-lg"><b><i><a href="/">Menu</a></i></b></li>
+                <% if(user) { %>
+                <li class="ml-6 text-lg">
+                    <form id="logout" action="/logout" method="POST">
+                        <a onclick="document.getElementById('logout').submit()" href="#">Logout&nbsp&nbsp&nbsp</a>
+                    </form>
+                </li>
+                <% } else { %>
+                <li class="ml-6 text-lg"><b><i><a href="/register">Register</a></i></b></li>
+                <li class="ml-6 text-lg"><b><i><a href="/login">Login&nbsp&nbsp&nbsp&nbsp&nbsp  </a></i></b></li> <br>
+                <% } %>
+               
+                <div class="flex items-center justify-between">
+                   
+                    <div class=" ">
+                        <!-- Search bar -->
+                        <div class="relative">
+                            <input type="text" id="searchInput" class="border border-gray-300 rounded-md py-2 px-4 focus:outline-none focus:border-blue-500" placeholder="Search menu...">
+                            <button id="searchButton" class="absolute right-0 top-0 bottom-0 px-4 py-2 bg-blue-500 text-white rounded-r-md">
+                                Search
+                            </button>
+                        </div>
+                    </div>
+                    <div class="w-1/4">
+                        <!-- Other navigation items -->
+                    </div>
+                </div>
+                
+                <li class="ml-6 text-lg">
+                    <% if(user && user.role === 'admin') { %>
+                        <b><i><a href="/admin/orders">Customers Orders</a></i></b>
+                    <% } else { %>
+                        <b><i><a href="/customer/orders">My Orders</a></i></b>
+                    <% } %>
+                </li>
+                <li class="ml-6 text-lg">
+                    <a href="#footer">About Us </a>
+                </li>
+                
+                <li class="ml-6"><a href="/cart" class="inline-block px-4 py-2 rounded-full flex items-center">
+                        <span id="cartCounter"
+                            class="text-white font-bold pr-2"><%= session.cart ? session.cart.totalQty : '' %></span>
+                        <img src="/img/cart.png" alt="">
+                    </a></li>
+            </ul>
+        </div>
+    </nav>
+    <%- body %>
+    <footer class="bg-gray-800 text-white py-8">
+        
+<!-- Existing content -->
+
+<footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- Location -->
+            <div>
+                <h3 class="text-lg font-semibold mb-4">Location</h3>
+                <p>Near JEC college Garmur, Jorhat</p>
+            </div>
+            <!-- Phone Number -->
+            <div>
+                <h3 class="text-lg font-semibold mb-4">Phone Number</h3>
+                <p> 6000274348</p>
+            </div>
+            <!-- Opening/Closing Time -->
+            <div>
+                <h3 class="text-lg font-semibold mb-4">Opening Hours</h3>
+                <p>Monday - Friday: 9am - 9pm</p>
+                <p>Saturday - Sunday: 10am - 8pm</p>
+            </div>
+            <!-- Map -->
+            <div>
+                <h3 class="text-lg font-semibold mb-4">Map</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3562.908085282186!2d94.24538647521834!3d26.747309076746212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3746dda820bedf63%3A0x3f9c781368310d95!2sJEC%20Entrance%20gate!5e0!3m2!1sen!2sin!4v1711870461959!5m2!1sen!2sin" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+        </div>
+    </div>
+
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- ABOUT ZOMATO -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">ABOUT HungryFlix</h3>
+                    <ul>
+                        <li><a href="#">Who We Are</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Work With Us</a></li>
+                        <li><a href="#">Investor Relations</a></li>
+                        <li><a href="#">Report Fraud</a></li>
+                        <li><a href="https://maps.app.goo.gl/Pr7E7qbCBJsbYipw9">Where ?</a></li>
+                        <li><a href="tel:+916000274348">Contact Us</a></li>
+    
+                    </ul>
+                </div>
+    
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">HungryFlix Universe</h3>
+                    <ul>
+                        <li><a href="/home">HungryFlix</a></li>
+                        
+                        <li><a href="#">Feeding India</a></li>
+                       
+                    </ul>
+                </div>
+    
+                <!-- FOR RESTAURANTS -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">FOR RESTAURANTS</h3>
+                    <ul>
+                        <li><a href="#">Partner With Us</a></li>
+                        <li><a href="#">Apps For You</a></li>
+                    </ul>
+                </div>
+    
+                <!-- LEARN MORE -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">LEARN MORE</h3>
+                    <ul>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <!-- SOCIAL LINKS -->
+            <div class="flex items-center justify-center mt-8">
+                <a href="https://www.instagram.com/flixhungry?igsh=dm1lYm9iZm5hcnJx" class="mx-6"><img src="/img/insta.jpeg" alt="Social Image 1"></a>
+                <a href="https://www.facebook.com/profile.php?id=61557707588813&mibextid=ZbWKwL" class="mx-6"><img src="/img/facebook.png" alt="Social Image 2"></a>
+            </div>
+    
+            <!-- COPYRIGHT TEXT -->
+            <p class="text-center mt-8">&copy; 2023-2024 HungryFlix™ Ltd. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/app.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const searchInput = document.getElementById("searchInput");
+            const searchButton = document.getElementById("searchButton");
+    
+            searchButton.addEventListener("click", function() {
+                const searchTerm = searchInput.value.trim().toLowerCase();
+    
+                // Perform search operation with the searchTerm
+                // You can implement the search logic here, such as filtering menu items based on the searchTerm
+                
+                // Redirect to a search results page with the filtered menu items
+                window.location.href = "/search?term=" + encodeURIComponent(searchTerm);
+            });
+        });
+    </script>
+
+</body>
+
+</html>
